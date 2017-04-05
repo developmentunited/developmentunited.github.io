@@ -20,6 +20,7 @@
    <link rel="stylesheet" href="css/base.css">  
    <link rel="stylesheet" href="css/main.css">
    <link rel="stylesheet" href="css/vendor.css">
+   <link rel="stylesheet" href="css/map.css">
 
 
    <!-- script
@@ -60,6 +61,23 @@
    	</div>   	
    	
    </header> <!-- /header -->
+
+<section id="map">
+<div class="shadow-overlay">
+
+<br> &nbsp;
+<br> &nbsp;
+<br> &nbsp;
+
+       <div class="google-maps">
+
+
+        <iframe src="https://www.google.com/maps/d/embed?mid=1Ga3xzHcGcKdoPUjEAvFjD5fSVmc" width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" frameborder="0" style="border:0" ></iframe>
+        </div>
+</div>
+
+</section>
+
 
 	<!-- intro section
    ================================================== -->
@@ -586,10 +604,22 @@
 
    <!-- Java Script
    ================================================== --> 
+      <!-- Tabletop.js for accessing Google Spreadsheets and Mapsheet.js for mapping, of course -->
+   <script src="js/tabletop.js"></script>
+   <script src="js/mapsheet.js"></script>
    <script src="js/jquery-1.11.3.min.js"></script>
    <script src="js/jquery-migrate-1.2.1.min.js"></script>
    <script src="js/plugins.js"></script>
    <script src="js/main.js"></script>
+   <script src="js/require.js"></script>
+   <script src="js/map.js"></script>
+   <!-- Replace the value of the key parameter in the call to the Google Maps JavaScript API URL below with your own API key. -->
+<!-- Make sure your API key is authorised to access the Google Maps API - you can enable that through your Google Developer console. -->
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZ0whkUzFOXH_Wa9WzRIt7pBkDOruDc2I&callback=initialiseMap">
+</script>
+
+
 
 </body>
 
