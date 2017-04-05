@@ -2098,21 +2098,16 @@ a.menu-toggle {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	padding-top: 12rem;
+	padding-top: 5em;
 	padding-bottom: 12rem;
-	color: white;
 }
 
 #whoWeAre .section-intro {
 	margin-bottom: 5em;
 }
 
-#whoWeAre .section-intro h5 {
-	color: rgba(255, 255, 255, 0.5);
-}
-
-#whoWeAre .section-intro h1 {
-	color: white;
+#whoWeAre {
+	background: white;
 }
 #whoWeAre .features-content .whoWeArePara,
 #whoWeAre .features-content .whoWeAreParaResponsive .whoWeArePara {
