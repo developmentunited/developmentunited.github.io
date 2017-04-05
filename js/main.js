@@ -15,10 +15,10 @@
    $(window).load(function() {
 
       // will first fade out the loading animation
-    	$("#loader").fadeOut("fast", function(){
+    	$("#loader").fadeOut("slow", function(){
 
         // will fade out the whole DIV that covers the website.
-        $("#preloader").delay(300).fadeOut("slow");
+        $("#preloader").delay(400).fadeOut("fast");
 
       });
 
@@ -112,7 +112,7 @@
 	      controlNav: true,
 	      directionNav: true,
 	      smoothHeight: true,
-	      slideshowSpeed: 7000,
+	      slideshowSpeed: 5000,
 	      animationSpeed: 600,
 	      randomize: false,
 	      touch: true,
