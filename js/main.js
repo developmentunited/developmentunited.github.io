@@ -230,6 +230,38 @@ var mailChimpURL =  'http://developmentunited.us15.list-manage.com/subscribe/pos
 
 		}		
 
-	});		
+	});
+
+	/*----------------------------------------------------- */
+	/* Responsive Who We Are section
+	 ------------------------------------------------------- */
+
+    var whoWeAreReponsiveFunction = function () {
+        var whoWeAreResp = document.createElement('div');
+        whoWeAreResp.className = 'col-six whoWeAreParaResponsive';
+
+        var whoWeAreParaResp = document.createElement('p');
+        whoWeAreParaResp.className = 'whoWeArePara';
+        whoWeAreParaResp.innerHTML = "Data made specifically for development experts: We provide organizations with data and intervention case studies that are specifically relevant to their own intervention, location, and needs.";
+
+        whoWeAreResp.appendChild(whoWeAreParaResp);
+
+
+        if ($(window).width() < 752) {
+            $('#whoWeAre .features-content .whoWeAreParaResponsive').remove();
+            $('#whoWeAre .features-content .whoWeArePictureResponsive').before(whoWeAreResp);
+        }
+        if ($(window).width() > 751) {
+            console.log("inside  > 769 loop");
+            $('#whoWeAre .whoWeAreParaResponsive').remove();
+            $('#whoWeAre .whoWeArePictureResponsive').after(whoWeAreResp);
+        }
+
+
+    };
+
+    $(window).on('load', whoWeAreReponsiveFunction);
+    $(window).on('resize', whoWeAreReponsiveFunction);
+
 
 })(jQuery);
