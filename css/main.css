@@ -890,10 +890,10 @@ header .logo a {
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
-	width:  164px;
+	width:  54px;
 	height: 54px;
-	background: url("../images/ngosunited_full_icon.png") no-repeat center;
-	background-size: 164px 54px;
+	background: url("../images/logo.png") no-repeat center;
+	background-size: 54px 54px;
 	-moz-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
 	-webkit-transition: all 0.5s ease-in-out;
@@ -908,7 +908,7 @@ header .logo a {
 .sticky .logo a {
 	width:  42px;
 	height: 42px;
-	background: url("../images/ngosunited_icon.png") no-repeat center;
+	background: url("../images/logo.png") no-repeat center;
 	background-size: 42px 42px;
 	background-size: 42px 42px;
 }
@@ -927,7 +927,7 @@ header .logo a {
 	header .logo a {
 		width: 42px;
 		height: 42px;
-		background: url("../images/ngosunited_icon.png") no-repeat center;
+		background: url("../images/logo.png") no-repeat center;
 		background-size: 42px 42px;
 		background-size: 42px 42px;
 	}
@@ -2346,7 +2346,7 @@ footer ul li {
 .footer-main .footer-logo {
 	width:  39px;
 	height: 39px;
-	background: url("../images/ngosunited_icon.png") no-repeat center;
+	background: url("../images/logo.png") no-repeat center;
 	background-size: 39px 39px;
 	margin: -.6rem 0 2.1rem -.3rem;
 	display: block;
