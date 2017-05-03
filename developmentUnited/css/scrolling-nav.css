@@ -67,7 +67,16 @@ of those sections to manage the look and feel of the site. */
     background-size: cover;
     text-align: center;
     height: 100%;
-    padding-top: 450px;
+}
+.home-logo img{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    bottom: 240px;
+    right: 70px;
+}
+.intro-buttons{
+   top: 425px;
 }
 .btn-default {
     border: 2px solid #fff;
@@ -223,4 +232,8 @@ ol{
     font-size: larger;
     position: relative;
     top: 3em;
+}
+
+.team-button{
+    margin: 2.5em;
 }
