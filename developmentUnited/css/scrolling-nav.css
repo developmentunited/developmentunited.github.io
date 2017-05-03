@@ -92,6 +92,9 @@ of those sections to manage the look and feel of the site. */
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
+.btn-group-lg>.btn, .btn-lg{
+    border-radius: 2px !important;
+}
 h1, h2, h3, h4, h5, h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
@@ -180,11 +183,12 @@ ol{
     background: #eee;
 }
 .picture-section{
-    background-image: url("../images/appdesign.jpg");
+    background-image: url("../images/intro-bg_old.jpg");
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
+    color: #fff;
     height: 100%;
     padding: 9em;
 }
@@ -204,7 +208,19 @@ ol{
     background: #151515;
     color: #fff;
 }
+.about-img p {
+    height: auto;
+    line-height:1.5em;
+    display: block;
+
+}
 
 .img-center {
     margin: 0 auto;
+}
+.page-top{
+    color: #fff;
+    font-size: larger;
+    position: relative;
+    top: 3em;
 }

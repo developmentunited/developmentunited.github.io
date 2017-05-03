@@ -11,9 +11,14 @@
 
     <title>Development United</title>
     <link href="css/scrolling-nav.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!--<script src="js/jquery.js"></script>-->
+    <!--<script src="js/bootstrap.min.js"></script>-->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
 
@@ -40,6 +45,7 @@
             <ul class="nav navbar-nav">
                 <li class="hidden">
                     <a class="page-scroll" href="#page-top"></a>
+
                 </li>
                 <li>
                     <a class="page-scroll" href="#home">Home</a>
@@ -50,14 +56,24 @@
                 <li>
                     <a class="page-scroll" href="#services">Servies</a>
                 </li>
-                <li>
-                    <a class="page-scroll" href="#contact">Join Us</a>
+                <li role="presentation" class="dropdown" >
+                    <a class="page-scroll dropdown-toggle" href="#info" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Info
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#data">Data</a></li>
+                        <li><a href="#facebook">Facebook</a></li>
+                        <li><a href="#donate">Donate</a></li>
+                    </ul>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">Our Team</a>
+                    <a class="page-scroll" href="#team">Our Team</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">Contact Us</a>
+                    <a class="page-scroll" href="#about">About Us</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#about">Contact Us</a>
                 </li>
             </ul>
         </div>
@@ -127,7 +143,7 @@
                         PROJECTS TO COLLABORATE, SO THAT THEY CAN OPERATE WITH MORE EFFICIENCY AND HAVE A WIDER SOCIAL
                         IMPACT.</p>
                 </div>
-                <a class="btn btn-primary page-scroll col-md-1 col-md-offset-3" href="#"> Join Us</a>
+                <a class="btn btn-primary page-scroll col-md-2 col-md-offset-3" href="#about"><i class="glyphicon glyphicon-chevron-down"></i> Join Us</a>
             </div>
         </div>
     </div>
@@ -169,7 +185,7 @@
             <div class="col-lg-12">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <h1 class="header">Services</h1>
+                        <h1 class="header">Data</h1>
                     </div>
                     <div class="col-lg-4 col-md-7">
                         <a><img src="images/avatars/avatar-1.jpg" class="img-responsive center-block" alt=""></a>
@@ -246,30 +262,52 @@
 </section>
 <section class="image-section"></section>
 <section class="picture-section">
+    <div class="row">
     <h3>AND THE BEST PART IS…</h3>
     <h3>ITS. COMPLETELY. FREE.</h3>
     <h3>Join our mission. Join our community. Put in your email to get notified when we launch.</h3>
-    <div class="col-md-12">
-        <a class="btn btn-primary page-scroll col-md-2 center-block" href="#about">
-            <i class=""></i> Join Us
-        </a></div>
-        <h3>To accomplish our goals, we are turning to our community. Help us raise funds to launch our product. </h3>
-        <a class="btn btn-default page-scroll col-md-2 " href="#about">
-            <i class=""></i> Make an impact!
+        <a class="btn btn-primary page-scroll btn-lg" href="#about">
+            <i class="glyphicon glyphicon-chevron-down"></i> Join Us
         </a>
+        <h3>To accomplish our goals, we are turning to our community. Help us raise funds to launch our product. </h3>
+        <a class="btn btn-default page-scroll btn-lg" href="#about">
+            <i class="glyphicon glyphicon-chevron-down"></i> Make an impact!
+        </a>
+    </div>
 </section>
 <section class="image-section"></section>
 <section id="team" class="team-section">
-    <div class="row">
+    <div class="row about-img">
     <div class="col-lg-12 text-center">
         <h2 class="header">Our Team</h2>
     </div>
     <div class="col-lg-4 col-sm-6 text-center">
         <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
-        <h3>John Smith
+        <h3>Gurkirpal Khosa
             <small>Job Title</small>
         </h3>
-        <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+        <p>Gurkirpal is a student of Global Health and Social Medicine at King’s College London. He believes the current model of development assistance has the potential to operate in a more efficient manner with the influence of policy and technology. He is passionate and determined to find ways that will make developing countries self sustaining and equitable.</p>
+    </div>
+    <div class="col-lg-4 col-sm-6 text-center">
+        <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
+        <h3>Alejandro Saucedo
+            <small>Job Title</small>
+        </h3>
+        <p>Alejandro has an extensive background using technology for good and creating socially impactful businesses. He is the founder of Exponential Technologies, where he advises start-ups on how to use technology to have an exponential social impact. Currently he is an entrepreneur in residence at Entrepreneur First, the world’s leading accelerator. Alejandro gives valuable guidance on how to scale tech start-ups, and how to make them socially impactful.</p>
+    </div>
+    <div class="col-lg-4 col-sm-6 text-center">
+        <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
+        <h3>Bryce Rauterkus
+            <small>Job Title</small>
+        </h3>
+        <p>Bryce is the project coordinator for Friends and Family Community Connection’s Haiti agroecology project. He has worked in Haiti for over four years and is outspoken about food aid and passionate about NGO collaboration. Bryce has a comprehensive understanding of how NGOs work in Haiti, and provides valuable insights on how to make our platform most effective for development workers.</p>
+    </div>
+    <div class="col-lg-4 col-sm-6 text-center">
+        <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
+        <h3>Hanna Kienzler
+            <small>Job Title</small>
+        </h3>
+        <p>Hanna is a lecturer in the department of Global Health and Social Medicine at King’s College London and the director of the BSc of Global Health and Social Medicine. She has a PhD in cultural and medical anthropology from McGill University, has done ethnographic work in Kosovo and the Palestinian territories relating to mental health in wartime contexts, and has consulted for the likes of the WHO.</p>
     </div>
     <div class="col-lg-4 col-sm-6 text-center">
         <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
@@ -285,27 +323,16 @@
         </h3>
         <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
     </div>
-    <div class="col-lg-4 col-sm-6 text-center">
-        <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
-        <h3>John Smith
-            <small>Job Title</small>
-        </h3>
-        <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
-    </div>
-    <div class="col-lg-4 col-sm-6 text-center">
-        <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
-        <h3>John Smith
-            <small>Job Title</small>
-        </h3>
-        <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
-    </div>
-    <div class="col-lg-4 col-sm-6 text-center">
-        <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
-        <h3>John Smith
-            <small>Job Title</small>
-        </h3>
-        <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
-    </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+        <a class="btn btn-primary page-scroll btn-lg" href="#about">
+            <i class="glyphicon glyphicon-chevron-down"></i> Join Us
+        </a>
+        <a class="btn btn-default page-scroll btn-lg" href="#about">
+            <i class="glyphicon glyphicon-chevron-down"></i> Make an impact!
+        </a>
+            </div>
+        </div>
 </div>
 </section>
 <section class="image-section"></section>
@@ -341,12 +368,15 @@
                 <div>
                     To find more about our ideas, partner with us, discuss our crowdsourcing initiative, or just to have a friendly chat, contact us! We would love to get in touch.
                 </div>
+                <a class="page-scroll page-top" href="#page-top">
+                    <span class="glyphicon glyphicon-menu-up"></a>
             </div>
 
             </div>
         </div>
     </div>
 </section>
+
 
 
 </body>
