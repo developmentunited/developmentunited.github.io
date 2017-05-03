@@ -252,3 +252,10 @@ ol{
 .team-button{
     margin: 2.5em;
 }
+
+.contact-section {
+    height: 100%;
+    padding-top: 70px;
+    text-align: center;
+    background: #fff;
+}
