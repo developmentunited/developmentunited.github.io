@@ -277,6 +277,12 @@ a:after {
     cursor: default;
     }
 
+
+.nav-tabs >  .col-md-4 {
+
+    padding: 0px;
+}
+
 .nav .nav-tabs li a:hover: {
     background-color:none;
     border: none;
