@@ -265,6 +265,66 @@ a:after {
 }
 
 
+/* CSS used here will be applied after bootstrap.css */
+.nav-tabs img{
+  width:50%;
+  }
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover { 
+    outline:none;
+    background-color: #ffffff;
+    border: 0px solid #fff;
+    border-bottom-color: transparent;
+    cursor: default;
+    }
+
+.nav .nav-tabs li a:hover: {
+    background-color:none;
+    border: none;
+    
+    }
+.nav-tabs li a:active{
+     background-color:#ffffff;
+     border:none;
+     border-right:0;
+      }
+
+l.nav .nav-tabs {
+          
+          }
+.tabs-below > .nav-tabs,
+ {
+  border: 0px;
+}
+
+.tab-content > .tab-pane,
+.pill-content > .pill-pane {
+  display: none;
+}
+
+.tab-content > .active,
+.pill-content > .active {
+  display: block;
+}
+
+.nav-tabs > .col-md-4 {
+    padding-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -286,12 +346,6 @@ a:after {
     -o-background-size: cover;
     background-size: cover;
 }
-
-#headerwrap .button-secondary {
-            color: white;
-            border-radius: 4px;
-            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-        }
 
 #headerwrap img {
 
@@ -390,7 +444,7 @@ a:after {
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     padding-top: 0px;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
     #margin-top: 45px;
 
 
@@ -412,9 +466,9 @@ a:after {
 }
 
 .textdivider h1 {
-	padding-top: 50px;
+	padding-top: 20px;
 	color: white;
-	font-size: 40px;
+	font-size: 30px;
 }
 
 .textdivider p {
@@ -443,7 +497,8 @@ a:after {
 }
 
 .divider6 {
-	background-image: url('../img/bg/divider6.jpg')
+	background-image: url('../img/bg/back.jpg')
+
 }
 
 .sign-with {

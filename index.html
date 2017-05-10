@@ -50,653 +50,394 @@
   <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
   
   
-  	<div id="navbar-main">
-      <!-- Fixed navbar -->
-	    <div class="navbar navbar-inverse navbar-fixed-top">
-	      <div class="container-fluid">
-	        <div class="navbar-header">
-	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-	            <span class="your-icon icon-base small"></span>
-	          </button>
-	          <a class="navbar-brand hidden-xs hidden-sm" href="#home"><span class="your-icon icon-base small"></span></a>
-	        </div>
-	        <div class="navbar-collapse collapse">
-	          <ul class="nav navbar-nav">
-	            <li> <a href="#home" class="smoothScroll">Home</a></li>
-				<li> <a href="#about" class="smoothScroll"> About</a></li>
-				<li> <a href="#services" class="smoothScroll"> Services</a></li>
-				<li> <a href="#team" class="smoothScroll"> Team</a></li>
-				<li> <a href="#portfolio" class="smoothScroll"> Solutions</a></li>
-				<li> <a href="#contact" class="smoothScroll"> Contact</a></li>
-	        </div><!--/.nav-collapse -->
-	      </div>
-	    </div>
-    </div>
-
-		<!-- ==== HEADERWRAP ==== -->
-	    <div id="headerwrap" id="home" name="home" >				     
-			<img class="center center-block img-responsive" src="assets/img/icon/icon.png" />
-			<br>
-			<br>
-			<div class="container">
-				<p>Development United</p>
-				<hr>
-				<p>Making Development Aid Effective</p>
-			</div><!-- container -->
-		</div><!-- /headerwrap -->
-
-
-<div class="modal fade" id="stayTunedModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-
-
-	<div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                    ×</button>
-                <h4 class="modal-title" id="myModalLabel">
-                    Stay Tuned </h4>
-            </div>
-            <div class="modal-body">
-                <div class="row">
-
-
-		        	     <div class="col-xs-12">
-		            
-    		            	<h5>
-    		            	We are currently working on this. Please stay tuned. 
-    		            	While you are waiting, subscribe to our mailing list and we will keep you posted with more details in the coming weeks.
-    		               </h5>
-		
-
-                            <div id="mc_embed_signup">
-                            <form action="//developmentunited.us15.list-manage.com/subscribe/post?u=971913f7fb26cc92200be69c2&amp;id=8b02587a39" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                                    <div id="mc_embed_signup_scroll">
-                                        <h2>Subscribe to our mailing list</h2>
-                                
-                                       <div class="mc-field-group">
-                                        <label for="mce-EMAIL">Email Address<span class="asterisk">*</span>
-                                        </label>
-                                        <br>
-
-
-                                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                                        <br>
-                                        <br>
-                            
-                                    </div>
-                                        <div id="mce-responses" class="clear">
-                                            <div class="response" id="mce-error-response" style="display:none"></div>
-                                            <div class="response" id="mce-success-response" style="display:none"></div>
-                                            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_971913f7fb26cc92200be69c2_8b02587a39" tabindex="-1" value=""></div>
-                                            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                                        </div>
-                                </form>
-                            </div>
-                        </div>
-		        </div>
-
-		    </div>    
-      
-		</div>
-	</div>
-
-</div>
-
-<div class="modal fade" id="paymentModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-<div class="modal-dialog">
-<div class="modal-content">
-           <!-- CREDIT CARD FORM STARTS HERE -->
-            <div class="panel panel-default credit-card-box">
-                <div class="panel-heading display-table" >
-              
-                    <div class="row display-tr" >
-                        <h3 class="panel-title" >Payment Details</h3>
-                        <div class="display-td" >                            
-                            <img class="img-responsive pull-right" src="http://i76.imgup.net/accepted_c22e0.png">
-                        </div>
-
-                    </div>    
-                </div>                
-           
-                <div class="panel-body">
-                    <form role="form" id="payment-form" method="POST" action="javascript:void(0);">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="form-group">
-                                    <label for="cardNumber">CARD NUMBER</label>
-                                    <div class="input-group">
-                                        <input 
-                                            type="tel"
-                                            class="form-control"
-                                            name="cardNumber"
-                                            placeholder="Valid Card Number"
-                                            autocomplete="cc-number"
-                                            required autofocus 
-                                        />
-                                        <span class="input-group-addon"><i class="fa fa-credit-card"></i></span>
-                                    </div>
-                                </div>                            
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-7 col-md-7">
-                                <div class="form-group">
-                                    <label for="cardExpiry"><span class="hidden-xs">EXPIRATION</span><span class="visible-xs-inline">EXP</span> DATE</label>
-                                    <input 
-                                        type="tel" 
-                                        class="form-control" 
-                                        name="cardExpiry"
-                                        placeholder="MM / YY"
-                                        autocomplete="cc-exp"
-                                        required 
-                                    />
-                                </div>
-                            </div>
-                            <div class="col-xs-5 col-md-5 pull-right">
-                                <div class="form-group">
-                                    <label for="cardCVC">CV CODE</label>
-                                    <input 
-                                        type="tel" 
-                                        class="form-control"
-                                        name="cardCVC"
-                                        placeholder="CVC"
-                                        autocomplete="cc-csc"
-                                        required
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="form-group">
-                                    <label for="couponCode">COUPON CODE</label>
-                                    <input type="text" class="form-control" name="couponCode" />
-                                </div>
-                            </div>                        
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <button class="subscribe btn btn-success btn-lg btn-block" type="button">Start Subscription</button>
-                            </div>
-                        </div>
-                        <div class="row" style="display:none;">
-                            <div class="col-xs-12">
-                                <p class="payment-errors"></p>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div> 
-            </div>
+          	<div id="navbar-main">
+              <!-- Fixed navbar -->
+        	    <div class="navbar navbar-inverse navbar-fixed-top">
+        	      <div class="container-fluid">
+        	        <div class="navbar-header">
+        	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        	            <span class="your-icon icon-base small"></span>
+        	          </button>
+        	          <a class="navbar-brand hidden-xs hidden-sm" href="#home"><span class="your-icon icon-base small"></span></a>
+        	        </div>
+        	        <div class="navbar-collapse collapse">
+        	          <ul class="nav navbar-nav">
+        	            <li> <a href="#home" class="smoothScroll">Home</a></li>
+        				<li> <a href="#about" class="smoothScroll"> About</a></li>
+                        <li> <a href="#product" class="smoothScroll"> Product</a></li>
+        				<li> <a href="#team" class="smoothScroll"> Team</a></li>
+        				<li> <a href="#contact" class="smoothScroll"> Contact</a></li>
+                      </ul>
+        	        </div><!--/.nav-collapse -->
+        	      </div>
+        	    </div>
             </div>
 
-</div>
+            <div  id="home" name="home"  >
+   
 
+                <!-- ==== HEADERWRAP ==== -->
 
-<div class="modal fade" id="signinModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                    ×</button>
-                <h4 class="modal-title" id="myModalLabel">
-                    Login/Registration </h4>
-            </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-md-8" style="border-right: 1px dotted #C2C2C2;padding-right: 30px;padding-top: 10px">
-                        <!-- Nav tabs -->
-                        <ul class="nav nav-tabs">
-                            <li class="active"><a href="#Login" data-toggle="tab">Login</a></li>
-                            <li><a href="#Registration" data-toggle="tab">Registration</a></li>
-                        </ul>
-                        <!-- Tab panes -->
-                        <div class="tab-content">
-                            <div class="tab-pane active" id="Login">
-                                <form role="form" class="form-horizontal">
-                                <br>
-                                <div class="form-group">
-                                    <label for="email" class="col-sm-2 control-label" >
-                                        Email</label>
-                                    <div class="col-sm-10">
-                                        <input type="email" class="form-control" id="email1" placeholder="Email" />
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleInputPassword1" class="col-sm-2 control-label">
-                                        Password</label>
-                                    <div class="col-sm-10">
-                                        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email" />
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-2">
-                                    </div>
-                                    <div class="col-sm-10">
-                                        <button type="submit" class="btn btn-primary btn-sm">
-                                            Submit</button>
-                                        <a href="javascript:;">Forgot your password?</a>
-                                    </div>
-                                </div>
-                                </form>
-                            </div>
-                            <div class="tab-pane" id="Registration">
-                                <form role="form" class="form-horizontal">
-                                <div class="form-group">
-                                    <br>
-                                    <label for="email" class="col-sm-2 control-label">
-                                        Name</label>
-                                    <div class="col-sm-10">
-                                        <div class="row">
-                                            <div class="col-md-3">
-                                                <select class="form-control">
-                                                    <option>Mr.</option>
-                                                    <option>Ms.</option>
-                                                    <option>Mrs.</option>
-                                                </select>
-                                            </div>
-                                            <div class="col-md-9">
-                                                <input type="text" class="form-control" placeholder="Name" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="email" class="col-sm-2 control-label">
-                                        Email</label>
-                                    <div class="col-sm-10">
-                                        <input type="email" class="form-control" id="email" placeholder="Email" />
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="mobile" class="col-sm-2 control-label">
-                                        Mobile</label>
-                                    <div class="col-sm-10">
-                                        <input type="email" class="form-control" id="mobile" placeholder="Mobile" />
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="password" class="col-sm-2 control-label">
-                                        Password</label>
-                                    <div class="col-sm-10">
-                                        <input type="password" class="form-control" id="password" placeholder="Password" />
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-2">
-                                    </div>
-                                    <div class="col-sm-10">
-                                        <button type="button" class="btn btn-primary btn-sm">
-                                            Save & Continue</button>
-                                        <button type="button" class="btn btn-default btn-sm" data-dismiss="modal" aria-hidden="true">
-                                            Cancel</button>
-                                    </div>
-                                </div>
-                                </form>
-                            </div>
-                        </div>
-                        <div id="OR" class="hidden-xs">
-                            OR</div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="row text-center sign-with">
-                            <div class="col-md-12">
-                                <h3>
-                                    Sign in with</h3>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="btn-group btn-group-justified">
-                                    <a href="#" class="btn btn-primary">Facebook</a> <a href="#" class="btn btn-danger">
-                                        Google</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-
-<div class="modal fade" id="signinliteModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-			<div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                    ×</button>
-                <h4 class="modal-title" id="myModalLabel">
-                    Sign Up </h4>
-            </div>
-
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-md-8" style="border-right: 1px dotted #C2C2C2;padding-right: 30px;padding-top: 10px">
-
-	        			    <!-- Begin MailChimp Signup Form -->
-
-            				<div id="mc_embed_signup">
-                				<form action="//developmentunited.us15.list-manage.com/subscribe/post?u=971913f7fb26cc92200be69c2&amp;id=8b02587a39" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                					<div id="mc_embed_signup_scroll">
-                						<h2>Subscribe to our mailing list</h2>
-                				
-                					   <div class="mc-field-group">
-                						<label for="mce-EMAIL">Email Address<span class="asterisk">*</span>
-                						</label>
-                						<br>
-
-
-                						<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                						<br>
-                						<br>
-            				
-            						</div>
-                						<div id="mce-responses" class="clear">
-                							<div class="response" id="mce-error-response" style="display:none"></div>
-                							<div class="response" id="mce-success-response" style="display:none"></div>
-                							</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                						    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_971913f7fb26cc92200be69c2_8b02587a39" tabindex="-1" value=""></div>
-                						    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-            						    </div>
-        						</form>
-						    </div>
-					</div>
-				</div>
-            </div>
-                  
+                <div  id="headerwrap" >                     
+                    <img class="center center-block img-responsive" src="assets/img/icon/icon.png" />
+                    <br>
+                    <br>
+                
+                        <p>Development United</p>
+                        <hr>
+                        <p>Making Development Aid Effective</p>
              
-        </div>
-    </div>
-</div>
+
+                </div><!-- /headerwrap -->
+
+
+                <div id="greywrap" >
+
+                        <div class="row " >
+                            <div class="col-lg-4 callout">
+                                <a  data-toggle="modal" href="#signinliteModal"><button type="button" class="btn btn-secondary">Join Us</button></span></a>
+                            </div><!-- col-lg-4 -->
+
+                            
+                            <div class="col-lg-4 callout">
+                            </div>
+                
+                            
+                            <div class="col-lg-4 callout">
+                                <a  data-toggle="modal" href="#stayTunedModal"><button type="button" class="btn btn-secondary">Make An Impact</button></span></a>
+                                
+                            </div><!-- col-lg-4 --> 
+                        </div><!-- row -->
+
+
+                    <div class="row ">
+            
+                        <div class="col-lg-4">
+                            <h1 class="centered"><span class="icon icon-tree "></span></h1>
+
+                            <p>More than 10 million development projects worldwide.</p>
+                        </div><!-- col-lg-6 -->
+                        
+                        <div class="col-lg-4">
+                            <h1 class="centered"><span class="icon icon-coin "></span></h1>
+                            <p>Each year, more than 300 billion USD is invested into development aid.</p>
+                        </div><!-- col-lg-6 -->
+
+                        <div class="col-lg-4">
+                            <h1 class="centered"><span class="icon icon-sad "></span></h1>
+                            <p>Global inequality is still on the rise. The current system of development aid is broken.</p>
+                        </div><!-- col-lg-6 -->
+                    </div><!-- row -->
+
+
+                </div><!-- greywrap -->
+
+                <div class="modal fade" id="stayTunedModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                        ×</button>
+                                    <h4 class="modal-title" id="myModalLabel">
+                                        Stay Tuned </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+
+
+                                             <div class="col-xs-12">
+                                        
+                                                <h5>
+                                                We are currently working on this. Please stay tuned. 
+                                                While you are waiting, subscribe to our mailing list and we will keep you posted with more details in the coming weeks.
+                                               </h5>
+                            
+
+                                                <div id="mc_embed_signup">
+                                                <form action="//developmentunited.us15.list-manage.com/subscribe/post?u=971913f7fb26cc92200be69c2&amp;id=8b02587a39" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                                        <div id="mc_embed_signup_scroll">
+                                                            <h2>Subscribe to our mailing list</h2>
+                                                    
+                                                           <div class="mc-field-group">
+                                                            <label for="mce-EMAIL">Email Address<span class="asterisk">*</span>
+                                                            </label>
+                                                            <br>
+
+
+                                                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                                                            <br>
+                                                            <br>
+                                                
+                                                        </div>
+                                                            <div id="mce-responses" class="clear">
+                                                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                                                <div class="response" id="mce-success-response" style="display:none"></div>
+                                                                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_971913f7fb26cc92200be69c2_8b02587a39" tabindex="-1" value=""></div>
+                                                                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                                                            </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                    </div>
+
+                                </div>    
+                          
+                            </div>
+                        </div>
+                </div> 
 
 
 
-		<div id="greywrap" >
+                <div class="modal fade" id="signinliteModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                    ×</button>
+                                <h4 class="modal-title" id="myModalLabel">
+                                    Sign Up </h4>
+                            </div>
 
-				<div class="row " >
-					<div class="col-lg-4 callout">
-						<a  data-toggle="modal" href="#signinliteModal"><button type="button" class="btn btn-secondary">Join Us</button></span></a>
-					</div><!-- col-lg-4 -->
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-8" style="border-right: 1px dotted #C2C2C2;padding-right: 30px;padding-top: 10px">
 
-					
-					<div class="col-lg-4 callout">
-					</div>
+                                            <!-- Begin MailChimp Signup Form -->
+
+                                            <div id="mc_embed_signup">
+                                                <form action="//developmentunited.us15.list-manage.com/subscribe/post?u=971913f7fb26cc92200be69c2&amp;id=8b02587a39" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                                    <div id="mc_embed_signup_scroll">
+                                                        <h2>Subscribe to our mailing list</h2>
+                                                
+                                                       <div class="mc-field-group">
+                                                        <label for="mce-EMAIL">Email Address<span class="asterisk">*</span>
+                                                        </label>
+                                                        <br>
+
+
+                                                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                                                        <br>
+                                                        <br>
+                                            
+                                                    </div>
+                                                        <div id="mce-responses" class="clear">
+                                                            <div class="response" id="mce-error-response" style="display:none"></div>
+                                                            <div class="response" id="mce-success-response" style="display:none"></div>
+                                                            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_971913f7fb26cc92200be69c2_8b02587a39" tabindex="-1" value=""></div>
+                                                            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                                                        </div>
+                                                </form>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                                  
+                             
+                        </div>
+                    </div>
+                </div>
+
+        		</div>
+
+            <!-- ==== SECTION DIVIDER2 -->
+    		<section class="section-divider textdivider divider2">
+    			<div class="container">
+    				<h1>Our Mission</h1>
+    				<hr>
+    				<p>Our mission is to make international development the most effective that it can be. We want to give beneficiaries a voice. We want to enable organizations to implement the most effective interventions possible. We want to give donors a transparent picture of what goes on in development aid. We will accomplish this by combining international development with state of the art technology to produce the most effectives solutions possible.</p>
+    			</div><!-- container -->
+    		</section><!-- section -->
+
+            </div>
+ 
+
+
+             <div class="container" id="about" name="about">
+
+                    <h1 class="centered">About Development United</h1>
+                    <hr>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <!-- tabs top -->
+                        <div class="tabbable">
+                              <ul class="nav nav-tabs">
+                                <li class="active col-md-4"><a href="#Loose" data-toggle="tab">
+                                    <h3 class="centered"><span class="icon icon-dashboard  "></span></h3>
+                                    <h3 class="centered">Data</h3></a>
+                                </li>
+                                <li class="col-md-4"><a href="#Cross" data-toggle="tab">
+                                    <h3 class="centered"><span class="icon icon-connection"></span></h3>    
+                                    <h3 class="centered">Collaboration</h3></a>
+                                </li>
+                                <li class="col-md-4"><a href="#Flake" data-toggle="tab">
+                                    <h3 class="centered"><span class="icon icon-coin "></span></h3>
+                                    <h3 class="centered">Funding</h3></a>
+                           
+                                </li>
+                              </ul>
+                             
+                        </div>
+                        <!-- /tabs -->
+                        <div class="tab-content">
+                                <div class="tab-pane active" id="Loose">
+                                     
+                                     <!-- ==== SECTION DIVIDER2 -->
+                                    <section class="section-divider textdivider divider1">
+                                        <div class="container">
+                                            <br>
+                                            <p>Data Sets for effective Decision making</p>
+                                            <hr>
+                                            <p>We believe that the best interventions are the ones that are research backed, tried, and tested. Development United gives you the specific information you need to make informed decisions and maximize the impact of your interventions.</p>
+
+
+                                        </div><!-- container -->
+                                    </section><!-- section -->
+
+
+                                    <div class="row white">
+
+
+                                            <div class="col-lg-4">
+                                                
+                                                    <div class="text-center">
+                                                    
+                                                    <h3 class="centered">Big Data Sets</p></h3>
+                                                    <p>
+                                                        Using State-Of-the-Art technology, We have developed the largest online database for development experts. Data ranges from Epidemiological Satsistics, Census Data, NGO Reports, Charity Analysis and UN Briefings
+                                                    </p>
+                                                    
+                                                    </div> <!-- text center -->
+                                    
+                                            </div><!-- col-lg -->
+                                
+
+
+                                            <div class="col-lg-4">
+                                                
+                                                    <h3 class="centered">Data Specific to the User</p></h3>
+                                                    <p>
+                                                    Based on a series of questions, We find data thats is most relevant to your project, enabling to increase your social impact
+                                    
+                                                    </p>
+                                            </div><!-- col-lg-6 -->
+                                            
+                                            
+
+                                            <div class="col-lg-4">
+                            
+                                                <h3 class="centered">Data -Simplified</p></h3>
+                                                <p>
+                                                    Based on a series of questions, We find data thats is most relevant to your project, enabling to increase your social impact
+                                    
+                                                </p>
+                                                
+                                                
+                                            </div><!-- col-lg-6 -->
+                                    </div><!-- row -->
+                    
+                                </div>
+                                <div class="tab-pane" id="Cross">
+                                   
+                                        <!-- ==== SECTION DIVIDER2 -->
+                                        <section class="section-divider textdivider divider1">
+                                            <div class="container">
+                                                <h1>A better place for international development organizations to collaborate</h1>
+                                                <hr>
+                                                <p>We believe that the most effective interventions come about when we work together. Development United uses advanced technology to foster mutually beneficial partnerships.</p>
+                                            </div><!-- container -->
+                                        </section><!-- section -->
+
+                                        <div class="row white">
+                                    
+
+                                                <div class="col-lg-4">
+                                        
+                                                    <h3 class="centered">Individual User profiles</h3>
+                                                    <p>
+                                                        Development experts and organizations develop a strong online presence
+                                                    </p>
+                                                    
+                                                </div><!-- col-lg-6 -->
+
+
+                                                <div class="col-lg-4">
+                            
+                                                    <h3 class="centered">A platform for development</h3>
+                                                    <p>
+                                                        Our Platform was designed by development workers, for development workers. We have created a beautiful, simple and effecive user interface which enables international development workers to collaborate in the simplest ways possible
+                                        
+                                                    </p>
+                                                </div><!-- col-lg-6 -->
+                                                
+                                                <div class="col-lg-4">
+                                                    <h3 class="centered">Effective partnerships</h3>
+                                                    <p>
+                                                        Our Platform was designed by development workers, for development workers. We have created a beautiful, simple and effecive user interface which enables international development workers to collaborate in the simplest ways possible
+                                        
+                                                    </p>
+                                                    
+                                                    <br>
+                                                <br>
+                                                </div><!-- col-lg-4 -->
+
+                                            </div><!-- row -->
+                                        
+                                </div>
+                                <div class="tab-pane" id="Flake">
+                                        <!-- ==== SECTION DIVIDER2 -->
+                                        <section class="section-divider textdivider divider1">
+                                            <div class="container">
+                                                <h1>Donate less while doing more</h1>
+                                                <hr>
+                                                <p>We believe that for collaboration to be successful, organizations need to work together from start to finish. We use state of the art financial technology to provide cost efficient mechanisms for collaborative projects to raise funds. 
+                                                </p>
+                                            </div><!-- container -->
+                                        </section><!-- section -->
+
+                                        <div class="row white">
+                                                <div class="col-lg-4">
+
+                                                    <h3 class="centered">Collaborative projects</h3>
+                                                    <p>
+                                                        It is our belief that effective development comes from collaborative efforts. thus, we provide organizations with a crowdfunding platform exclusively for collaborative projects.
+                                                    </p>
+                                    
+                                                </div><!-- col-lg-6 -->
+                                                <div class="col-lg-4">
+
+                                                    <h3 class="centered">A wider donor base</h3>
+                                                    <p>
+                                                        When organizations crowdsource on our platform, each organization is responsible for reaching out to their donor base. In addition, development united uses its reach to highlight projects we believe are most effective.
+                                        
+                                                    </p>
+                                                </div><!-- col-lg-6 -->
+                                                <div class="col-lg-4">
+                                                    <h3 class="centered">More funds</h3>
+                                                    <p>
+                                                        We use state of the art financial technology to maximise the amount of money that reaches development organizations. For each project, we are able to increase donations by up to 2% compared to what an organization would receive if they fundraised independently.
+
+                                                    </p>
+                                                </div><!-- col-lg-6 -->
+                                            </div><!-- row -->      
+
+                                </div>
+                                
+                        </div>
+
+                    </div>
+                    <!-- end col-sm-12 -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+
+
 		
-					
-					<div class="col-lg-4 callout">
-						<a  data-toggle="modal" href="#stayTunedModal"><button type="button" class="btn btn-secondary">Make An Impact</button></span></a>
-						
-					</div><!-- col-lg-4 -->	
-				</div><!-- row -->
-
-
-			<div class="row ">
-	
-				<div class="col-lg-4">
-					<h1 class="centered"><span class="icon icon-tree "></span></h1>
-
-					<p>More than 10 million development projects exist worldwide.</p>
-				</div><!-- col-lg-6 -->
-				
-				<div class="col-lg-4">
-				    <h1 class="centered"><span class="icon icon-coin "></span></h1>
-					<p>Each year, more than 300 billion USD is invested into development aid.</p>
-				</div><!-- col-lg-6 -->
-
-				<div class="col-lg-4">
-				    <h1 class="centered"><span class="icon icon-sad "></span></h1>
-					<p>Global inequality is still on the rise. The current system of development aid is broken.</p>
-				</div><!-- col-lg-6 -->
-			</div><!-- row -->
-
-
-		</div><!-- greywrap -->
-
-<!-- ==== SECTION DIVIDER2 -->
-		<section class="section-divider textdivider divider2">
-			<div class="container">
-				<h1>Our Mission</h1>
-				<hr>
-				<p>Our mission is to make international development the most effective that it can be. We want to give beneficiaries a voice. We want to enable organizations to implement the most effective interventions possible. We want to give donors a transparent picture of what goes on in development aid. We will accomplish this by combining international development with state of the art technology to produce the most effectives solutions possible.</p>
-			</div><!-- container -->
-		</section><!-- section -->
-
-		<section>
-		<!-- ==== ABOUT ==== -->
-		<div class="container" id="about" name="about">
-
-		<br>
-		<br>
-		<h1 class="centered">About Development United</h1>
-		<hr>
-
-	
-			<div class="row white">
-	
-
-				<div class="col-lg-4">
-				    <h1 class="centered"><span class="icon icon-dashboard "></span></h1>
-					<h1 class="centered">Data</p></h1>
-					<div class="col-lg-offset-2 col-lg-8">
-					<div class="text-center">
-					<!--<img src="assets/img/bg/datause.jpg" class="img img-responsive " alt="..."> -->
-					
-					</div><!-- col-lg -->
-					
-					</div><!-- col-lg -->
-				</div><!-- col-lg-6 -->
-
-
-				<div class="col-lg-4">
-					<h1 class="centered"><span class="icon icon-connection"></span></h1>
-
-					<h1 class="centered">Collaboration</p></h1>
-
-					<div class="col-lg-offset-2 col-lg-8">
-					
-					<div class="text-center">
-					<!--<img src="assets/img/bg/datause.jpg" class="img img-responsive " alt="..."> -->
-					
-					</div><!-- col-lg -->
-					</div><!-- col-lg -->
-
-
-				</div><!-- col-lg-6 -->
-				
-				
-
-				<div class="col-lg-4">
-				    <h1 class="centered"><span class="icon icon-coin "></span></h1>
-					<h1 class="centered">Funding</p></h1>
-					<div class="col-lg-offset-2 col-lg-8">
-
-					<div class="text-center">
-					<!--<img src="assets/img/bg/datause.jpg" class="img img-responsive " alt="..."> -->
-					
-					</div><!-- col-lg -->
-					</div>
-				</div><!-- col-lg-6 -->
-			</div><!-- row -->			
-			
-		</div><!-- container -->
-
-		<br>
-		<br>
-
-		</section>
 		
-		<!-- ==== SECTION DIVIDER2 -->
-		<section class="section-divider textdivider divider1">
-			<div class="container">
-				<h1>Data Sets for effective Decision making</h1>
-				<hr>
-				<p>We believe that the best interventions are the ones that are research backed, tried, and tested. Development United gives you the specific information you need to make informed decisions and maximize the impact of your interventions.</p>
-
-
-			</div><!-- container -->
-		</section><!-- section -->
-		
-		<!-- ==== SERVICES ==== -->
-		<div class="container" id="services" name="services">
-
-
-
-		<div class="row white">
-
-
-				<div class="col-lg-4">
-					
-						<div class="text-center">
-						<h1 class="centered"><span class="icon icon-dice "></span></h1>
-						<h1 class="centered">Big Data Sets</p></h1>
-						<p>
-							Using state-of-the-art technology, we have developed the largest online database for development experts. Our data encompasses epidemiological satsistics, census data, reports from international development organizations, charity analysis and UN briefings.
-						</p>
-						
-						</div> <!-- text center -->
-		
-				</div><!-- col-lg -->
-	
-
-
-				<div class="col-lg-4">
-						<h1 class="centered"><span class="icon icon-user	"></span></h1>
-						<h1 class="centered">Data Specific to the User</p></h1>
-						<p>
-						Based on a series of questions, we find data thats is most relevant to your project, enabling you to increase your social impact.
-		
-						</p>
-				</div><!-- col-lg-6 -->
-				
-				
-
-				<div class="col-lg-4">
-				    <h1 class="centered"><span class="icon icon-lab "></span></h1>
-					<h1 class="centered">Data -Simplified</p></h1>
-					<p>
-						We are able to consolidate thousands of pages into a series of several pages that are directly relevant to the activities of your organization, so you only recieve the information that you need.
-		
-					</p>
-					
-					
-				</div><!-- col-lg-6 -->
-			</div><!-- row -->
-
-
-				
-				<!--<div class="col-lg-offset-2 col-lg-8">
-					<img class="img-responsive" src="assets/img/services.png" alt="">
-				</div> -->
-				 <!-- col -->
-		
-			
-			
-		</div><!-- container -->
-  		
-
-		<!-- ==== SECTION DIVIDER2 -->
-		<section class="section-divider textdivider divider2">
-			<div class="container">
-				<h1>A better place for international development organizations to collaborate</h1>
-				<hr>
-				<p>We believe that the most effective interventions come about when we work together. Development United uses advanced technology to foster mutually beneficial partnerships.</p>
-			</div><!-- container -->
-		</section><!-- section -->
-
-
-
-
-
-		
-		<!-- ==== More Info ==== -->
-		<div class="container" id="platform" name="platform">
-	
-			<div class="row white">
-	
-
-				<div class="col-lg-4">
-				    <h1 class="centered"><span class="icon icon-users "></span></h1>
-					<h1 class="centered">Individual User profiles</p></h1>
-					<p>
-						Development experts and organizations develop a strong online presence.
-					</p>
-					
-				</div><!-- col-lg-6 -->
-
-
-				<div class="col-lg-4">
-					<h1 class="centered"><span class="icon icon-support	"></span></h1>
-					<h1 class="centered">A platform for development</p></h1>
-					<p>
-						Our Platform was designed by development workers, for development workers. We have created a beautiful, simple and effecive user interface which enables international development workers to collaborate in the simplest ways possible.
-		
-					</p>
-				</div><!-- col-lg-6 -->
-				
-				
-
-				<div class="col-lg-4">
-				    <h1 class="centered"><span class="icon icon-ladder "></span></h1>
-					<h1 class="centered">Effective partnerships and connections</p></h1>
-					<p>
-						Based upon a short series of questions, we are able to gauge the needs and necessities of your organization and suggest mutually beneficial partnerships. 
-		
-					</p>
-					
-				</div><!-- col-lg-4 -->
-			</div><!-- row -->
-			
-		</div><!-- container -->
-
-
-
-		<!-- ==== SECTION DIVIDER2 -->
-		<section class="section-divider textdivider divider2">
-			<div class="container">
-				<h1>Donate less while doing more</h1>
-				<hr>
-				<p>We believe that for collaboration to be successful, organizations need to work together from start to finish. We use state of the art financial technology to provide cost efficient mechanisms for collaborative projects to raise funds. 
-				</p>
-			</div><!-- container -->
-		</section><!-- section -->
-
-
-		<!-- ==== More Info ==== -->
-		<div class="container" id="funding" name="funding">
-			<div class="row white">
-				<div class="col-lg-4">
-				    <h1 class="centered"><span class="icon icon-tree "></span></h1>
-					<h1 class="centered">Collaborative projects</p></h1>
-					<p>
-						It is our belief that effective development comes from collaborative efforts. Thus, we provide organizations with a crowdfunding platform exclusively for collaborative projects.
-					</p>
-	
-				</div><!-- col-lg-6 -->
-				<div class="col-lg-4">
-					<h1 class="centered"><span class="icon icon-globe	"></span></h1>
-					<h1 class="centered">A wider donor base</p></h1>
-					<p>
-						When organizations crowdsource on our platform, each organization is responsible for reaching out to their donor base. In addition, we use our own reach at Development United to highlight projects that we believe are most effective.
-		
-					</p>
-				</div><!-- col-lg-6 -->
-				<div class="col-lg-4">
-				    <h1 class="centered"><span class="icon icon-coin "></span></h1>
-					<h1 class="centered">More funds</p></h1>
-					<p>
-						Development United uses state of the art financial technology to maximise the amount of money that reaches development organizations. For each project, we are able to increase donations by up to 2% compared to what an organization would receive if they raised funds independently.
-
-					</p>
-				</div><!-- col-lg-6 -->
-			</div><!-- row -->		
-			
-		</div><!-- container -->
 
 
 		<!-- ==== SECTION DIVIDER3 -->
@@ -704,17 +445,16 @@
 			<div class="container">
 				<h1>The Problem</h1>
 				<hr>
-				<p> There are 10,000,000 international development projects operational worldwide. $30,000,000,000 is distributed annually to organizations to support a variety of aid projects. The rise in organizations has made it incredibly challenging for coordination, communication, and informed decision making to take place. There is currently no existing platform that is free, public, and user-friendly for donors, organizations, and beneficiaries to address these issues. Development United is a group of dedicated individuals united in one organization striving to provide that platform and to improve the effectiveness of aid delivery. We do this through the mechanisms of data provision and collection, fostering mutually beneficial partnerships, and enabling organizations to receive funding for collaborative partnerships.
-</p>
+				<p> 10,000,000 non-governmental organizations (NGOs) are operational worldwide. $30,000,000,000 are distributed annually to NGOs to support a variety of aid projects. The rise in NGOs has made it incredibly challenging for NGOs to coordinate, communicate, and understand who needs what in aid delivery. There is currently no existing platform that is free, public, and user-friendly for donors, NGOs, and beneficiaries to address these issues. NGOs United is a group of dedicated individuals united in one organization striving to provide that platform and to improve the effectiveness of aid delivery. We do this through the mechanism of data collection, public forums, and actively communicating with NGOs.</p>
 			</div><!-- container -->
 		</section><!-- section -->
 		
-		<!-- ==== PORTFOLIO ==== -->
-		<div class="container" id="portfolio" name="portfolio">
+		<!-- ==== product ==== -->
+		<div class="container" id="product" name="product">
 		<br>
 			<div class="row">
 				<br>
-				<h1 class="centered">Our Solution</h1>
+				<h1 class="centered">Our Product</h1>
 				<hr>
 				<br>
 				<br>
@@ -722,11 +462,11 @@
 			<div class="container">
 			<div class="row">	
 			
-				<!-- PORTFOLIO IMAGE 6 -->
+				<!-- product IMAGE 6 -->
 				<div class="col-md-4">
 			    	<div class="grid mask">
 						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio06.jpg" alt="">
+							<img class="img-responsive" src="assets/img/product/folio06.jpg" alt="">
 							<figcaption>
 								<h5>Maps</h5>
 								<a data-toggle="modal" href="#mapModal" class="btn btn-primary btn-lg">Take a Look</a>
@@ -735,7 +475,7 @@
 			    	</div><!-- /grid-mask -->
 				</div><!-- /col -->
 
-				<!-- MODAL SHOW THE PORTFOLIO IMAGE. In this demo, all links point to this modal. You should create
+				<!-- MODAL SHOW THE product IMAGE. In this demo, all links point to this modal. You should create
 						      a modal for each of your projects. -->
 						      
 						  <div class="modal fade" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -746,7 +486,7 @@
 						          <h4 class="modal-title">Intelligent Maps</h4>
 						        </div>
 						        <div class="modal-body">
-						          <p><img class="img-responsive" src="assets/img/portfolio/folio06.jpg" alt=""></p>
+						          <p><img class="img-responsive" src="assets/img/product/folio06.jpg" alt=""></p>
 						          
 						        </div>
 						        <div class="modal-footer">
@@ -756,11 +496,11 @@
 						    </div><!-- /.modal-dialog -->
 						  </div><!-- /.modal -->
 				
-				<!-- PORTFOLIO IMAGE 2 -->
+				<!-- product IMAGE 2 -->
 				<div class="col-md-4">
 			    	<div class="grid mask">
 						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio02.jpg" alt="">
+							<img class="img-responsive" src="assets/img/product/folio02.jpg" alt="">
 							<figcaption>
 								<h5>Organization Profile</h5>
 								<a data-toggle="modal" href="#uiModal" class="btn btn-primary btn-lg">Take a Look</a>
@@ -769,7 +509,7 @@
 			    	</div><!-- /grid-mask -->
 				</div><!-- /col -->
 
-<!-- MODAL SHOW THE PORTFOLIO IMAGE. In this demo, all links point to this modal. You should create
+<!-- MODAL SHOW THE product IMAGE. In this demo, all links point to this modal. You should create
 						      a modal for each of your projects. -->
 						      
 						  <div class="modal fade" id="uiModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -780,7 +520,7 @@
 						          <h4 class="modal-title">Clean Org Presentation</h4>
 						        </div>
 						        <div class="modal-body">
-						          <p><img class="img-responsive" src="assets/img/portfolio/folio02.jpg" alt=""></p>
+						          <p><img class="img-responsive" src="assets/img/product/folio02.jpg" alt=""></p>
 						          
 						        </div>
 						        <div class="modal-footer">
@@ -792,11 +532,11 @@
 
 
 				
-				<!-- PORTFOLIO IMAGE 3 -->
+				<!-- product IMAGE 3 -->
 				<div class="col-md-4">
 			    	<div class="grid mask">
 						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio03.jpg" alt="">
+							<img class="img-responsive" src="assets/img/product/folio03.jpg" alt="">
 							<figcaption>
 								<h5>Effective Search</h5>
 								<a data-toggle="modal" href="#searchModal" class="btn btn-primary btn-lg">Take a Look</a>
@@ -816,7 +556,7 @@
 						          <h4 class="modal-title">Effective Search</h4>
 						        </div>
 						        <div class="modal-body">
-						          <p><img class="img-responsive" src="assets/img/portfolio/folio03.jpg" alt=""></p>
+						          <p><img class="img-responsive" src="assets/img/product/folio03.jpg" alt=""></p>
 						          
 						        </div>
 						        <div class="modal-footer">
@@ -826,12 +566,12 @@
 						    </div><!-- /.modal-dialog -->
 						  </div><!-- /.modal -->
 
-				<!-- PORTFOLIO IMAGE 4 -->
+				<!-- product IMAGE 4 -->
 			<div class="row">	
 				<div class="col-md-4 ">
 			    	<div class="grid mask">
 						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio04.jpg" alt="">
+							<img class="img-responsive" src="assets/img/product/folio04.jpg" alt="">
 							<figcaption>
 								<h5>FUNDING PLATFORM</h5>
 								<a data-toggle="modal" href="#fundingModal" class="btn btn-primary btn-lg">Take a Look</a>
@@ -858,11 +598,11 @@
 						    </div><!-- /.modal-dialog -->
 						  </div><!-- /.modal -->
 				
-				<!-- PORTFOLIO IMAGE 5 -->
+				<!-- product IMAGE 5 -->
 				<div class="col-md-4">
 			    	<div class="grid mask">
 						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio05.jpg" alt="">
+							<img class="img-responsive" src="assets/img/product/folio05.jpg" alt="">
 							<figcaption>
 								<h5>Project Details</h5>
 								<a data-toggle="modal" href="#projectModal" class="btn btn-primary btn-lg">Take a Look</a>
@@ -872,7 +612,7 @@
 				</div><!-- /col -->
 
 
-				<!-- MODAL SHOW THE PORTFOLIO IMAGE. In this demo, all links point to this modal. You should create
+				<!-- MODAL SHOW THE product IMAGE. In this demo, all links point to this modal. You should create
 						      a modal for each of your projects. -->
 						      
 						  <div class="modal fade" id="projectModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -883,7 +623,7 @@
 						          <h4 class="modal-title">Clean Project Presentation</h4>
 						        </div>
 						        <div class="modal-body">
-						          <p><img class="img-responsive" src="assets/img/portfolio/folio05.jpg" alt=""></p>
+						          <p><img class="img-responsive" src="assets/img/product/folio05.jpg" alt=""></p>
 						          
 						        </div>
 						        <div class="modal-footer">
@@ -897,11 +637,11 @@
 
 
 
-						  <!-- PORTFOLIO IMAGE 1 -->
+						  <!-- product IMAGE 1 -->
 				<div class="col-md-4 ">
 			    	<div class="grid mask">
 						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio01.jpg" alt="">
+							<img class="img-responsive" src="assets/img/product/folio01.jpg" alt="">
 							<figcaption>
 								<h5>Facebook</h5>
 								<a data-toggle="modal" href="#fbModal" class="btn btn-primary btn-lg">Take a Look</a>
@@ -911,7 +651,7 @@
 				</div><!-- /col -->
 				
 				
-						 <!-- MODAL SHOW THE PORTFOLIO IMAGE. In this demo, all links point to this modal. You should create
+						 <!-- MODAL SHOW THE product IMAGE. In this demo, all links point to this modal. You should create
 						      a modal for each of your projects. -->
 						      
 						  <div class="modal fade" id="fbModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -922,7 +662,7 @@
 						          <h4 class="modal-title">Facebook Page</h4>
 						        </div>
 						        <div class="modal-body">
-						          <p><img class="img-responsive" src="assets/img/portfolio/folio01.jpg" alt=""></p>
+						          <p><img class="img-responsive" src="assets/img/product/folio01.jpg" alt=""></p>
 						          
 						        </div>
 						        <div class="modal-footer">
