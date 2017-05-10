@@ -41,7 +41,7 @@ you can use the generic selector below, but it's slower:
 
 .your-icon {
     position: relative;
-    top: -5px;
+    top: 0px;
     display: inline-block;
     font-style: normal;
     font-weight: normal;
