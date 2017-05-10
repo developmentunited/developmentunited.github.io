@@ -267,7 +267,7 @@ a:after {
 
 /* CSS used here will be applied after bootstrap.css */
 .nav-tabs img{
-  width:50%;
+  width:30%;
   }
 .nav-tabs > .active > a, .nav-tabs > .active > a:hover { 
     outline:none;
@@ -309,22 +309,6 @@ l.nav .nav-tabs {
 .nav-tabs > .col-md-4 {
     padding-bottom: 0px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
